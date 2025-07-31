@@ -7,7 +7,7 @@ count = 5
 ami = "ami-0173c04c4bfce9148"
 instance_type = "t3.medium"
 key_name = "jai.pem"
-vpc_security_group_ids = ["sg-0da91ed9997d755fc"]
+vpc_security_group_ids = ["sg-01fe2eaa0522b07b9"]
 tags = {
 Name = var.instance_names[count.index]
 }
